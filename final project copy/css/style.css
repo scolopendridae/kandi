@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-image: linear-gradient(rgba(92, 215, 234, 0.251), rgba(84, 51, 229, 0.382)), url(../images/catrin-johnson-PleATApY2Lk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 15em;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    padding: 3em 5em;
+    /* font-family: "Grandstander", cursive; */
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #b8f7f6;
+    text-shadow: #393ed3 1px 0 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(91, 161, 252);
+    padding: 8em 0;
+    border-radius: 2em;
+    margin: 1em 1em;
+}
+
+.infotext {
+    margin: 3em 1em;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.infopic {
+    height: 20em;
+    /* border-radius: 50%; */
+    margin: .5em 5em;
+}
+
+nav {
+    background-color: #7edce7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: .5em;
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+}
+
+body {
+    background-color: #b8f7f6;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.4rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+footer {
+    background-color: black;
+    color: #7edce7;
+    text-align: center;
+    padding: 0.5em 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.about {
+    margin: 3em 8em;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+h2 {
+    font-family: "Grandstander", cursive;
+    color: rgb(0, 128, 255);
+    text-shadow: .08em .08em rgb(15, 34, 139);
+}
+
+.testimonials {
+    margin: 3em 5em;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+
+.quotes {
+    text-align: right;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .9em;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.img1 {
+    width: 17em;
+    margin-bottom: .5em;
+}
+
+.gal1 {
+    background-color: #7edce7;
+    padding: 1.5em;
+}
